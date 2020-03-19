@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane alignment="center" hgap="10" prefHeight="187.0" prefWidth="312.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="ba.unsa.etf.rs.Controller">
+   <children>
+      <Button fx:id="Button" onAction="#ispisi" mnemonicParsing="false" prefHeight="31.0" prefWidth="59.0" text="Button" />
+      <TextField fx:id="Input" GridPane.columnIndex="1" />
+      <TextArea fx:id="Text" prefHeight="95.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
